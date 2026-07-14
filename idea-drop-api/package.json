@@ -1,0 +1,23 @@
+{
+  "name": "idea-drop-api",
+  "version": "1.0.0",
+  "description": "Backend API",
+  "license": "ISC",
+  "author": "Fernando Linhares",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jose": "^6.2.2",
+    "mongoose": "^9.3.2"
+  }
+}
